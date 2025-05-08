@@ -37,11 +37,27 @@ label {
     padding: 5px;
 }
 
-#vorschau {
+#preview {
     border: 1px solid rgba(167, 183, 196, 0.25);
     box-shadow: 3px 3px 5px rgba(156, 157, 157, 0.25);
     border-radius: 3px;
     background-color: #e8eded;
     padding: 0 20px;
-    height: 100px;
+    height: max-content;
 }
+
+.result {
+    padding: 20px;
+    color: white;
+    text-align: center;
+    border-radius: 3px;
+    font-weight: bold;
+}
+
+#success {
+    background-color: green;
+}
+
+#failed {
+    background-color: red;
+} 
